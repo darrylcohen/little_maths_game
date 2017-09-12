@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+	<title>Maths Game</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Raleway" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="gameContainer">
+	<header>
+		<p id="title">
+			<spam class="col5">Maths</spam>
+			<spam class="col5"> Is</spam>
+			<spam class="col5"> Fun</spam>
+		</p>
+		<p class="col5" id="timer">0:00</p>
+
+	</header>
+	<div class="levels">
+		<p class="col1" >Level <spam class="col2" id = "curLevel"></spam></p>
+		<button class="level col4 bkg1" >Easy</button>
+		<button class="level col3 bkg2" >Medium</button>
+		<button class="level col2 bkg4" >Hard</button>
+		<button class="level col1 bkg3" >Crazy</button>
+	</div>
+	<div class="instructions ">
+		<p>
+			<spam class="col2">Select a Level. </spam>
+			<spam class="col5"> You have 1 minute to answer</spam>
+			<spam class="col1"> as many questions</spam>
+			<spam class="col3"> as you can.</spam>
+			<spam class="col6"> Click a level to start a new game.</spam>
+		</p>
+	</div>
+	<div class="gameOver">
+		<h1 class="col1">GAME OVER</h1>
+		<p>
+			<spam class="col3">You got </spam>
+			<spam class="col2" id="goCorrect"></spam>
+			<spam class="col5"> correct and</spam>
+			<spam class="col1" id="goIncorrect"></spam>
+			<spam class="col6" >incorect</spam>
+
+
+		</p>
+		<button class="col2 bkg4" id="playAgain">Play Again</button>
+	</div>
+	<div class="midContainer">
+
+		<div class="question" id="numbers">
+			<div class="number col6" id = "num1"> ? </div>
+			<div class="number col5" id="sign"> + </div>
+			<div class="number col3" id = "num2"> ? </div>
+			<div class="number col1" id = "num2"> = </div>
+		</div>
+
+
+		<h2>
+			<span class="col1">Choose </span>
+			<span class="col2">The </span>
+			<span class="col3">Correct </span>
+			<span class="col4">Answer </span>
+		</h2>
+		<div class="options" id="options" >
+			<div class="option col1 bkg1"></div>
+			<div class="option col2 bkg2"></div>
+			<div class="option col3 bkg3"></div>
+			<div class="option col4 bkg4"></div>
+		</div>
+
+		<div class="scoreHeader">
+			<div class="scores">
+				<span class="col3" > Correct </span>
+				<span class="col2" id="correct">0</span>
+				<span class="col4"> :   Wrong </span>
+				<span class="col1" id="incorrect">0</span>
+			</div>
+		</div>
+	</div>
+	<footer>
+		Darryl Cohen 2017 &#169
+	</footer>
+</div>
+<script src="js/mathsjs.js"></script>
+
+</body>
+
+</html>
