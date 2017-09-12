@@ -3,7 +3,7 @@ Darryl Cohen
 
 ### **Welcome to _A Little MAaths Game_**
 
-<img src=https://ibin.co/3a6N5WNFpr4x.jpg width="300">
+<img src=https://ibin.co/3a6TWqdmOwuh.jpg width="300">
 
 The Problem
 
