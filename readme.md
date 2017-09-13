@@ -1,16 +1,15 @@
 Darryl Cohen
 ============
 
-### **Welcome to _A Little MAaths Game_**
+### **Welcome to _A Little Maths Game_**
 
 <img src=https://ibin.co/3a6TWqdmOwuh.jpg width="300">
 
-The Problem
+## The Problem
 
-Create the game hangman. I extended the game to use a timer for words as well as
-a parent or someone adding specific words that a child could guess
+This game was made for my daughter to help her with maths. She was 6 at the time. She used it for about an hour and then got bored. It was fun creating it though
 
-My Approach
+## My Approach
 
 I used objects to split the functionality.
 
