@@ -9,9 +9,9 @@ Darryl Cohen
 
 This game was made for my daughter to help her with maths. She was 6 at the time. She used it for about an hour and then got bored. It was fun creating it though
 
-## My Approach
+##  My Approach
 
-I used objects to split the functionality.
+This was one of the first games I wrote in JS. 
 
 [Play the Game](https://darrylcohen.github.io/little_maths_game/)
 
